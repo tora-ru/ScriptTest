@@ -15,7 +15,7 @@ public class Test : MonoBehaviour
         array[3] = 99;
         array[4] = 77;
         // ”z—ñ‚Ì—v‘f‚ð‚·‚×‚Ä•\Ž¦‚·‚é
-        for (int i = 0; i < 5; i++)
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
@@ -25,7 +25,6 @@ public class Test : MonoBehaviour
     {
     }
 }
-
 
 
 
