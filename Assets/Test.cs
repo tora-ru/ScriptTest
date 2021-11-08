@@ -14,11 +14,13 @@ public class Test : MonoBehaviour
         //配列の分だけ処理を繰り返す
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i] >= 50)
-            {
                 //配列の要素を表示する
                 Debug.Log(array[i]);
-            }
+        }
+
+        for (int i = array.Length-1; i >= 0; i--)
+        {
+                Debug.Log(array[i]);
         }
     }
 
